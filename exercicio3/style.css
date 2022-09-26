@@ -2,6 +2,12 @@
   margin: 0;
   padding: 0;
 }
+#container{
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
 main{
   display: flex;
@@ -23,16 +29,24 @@ section{
 }
 
 #section-1{
+  order: 2;
 }
 
 #section-2{
+  order: 2;
+  flex-grow: 2;
 }
 
 #section-3{
+  order: 2;
+  flex-grow: 3;
 }
 
 #section-4{
+  order: 2;
+  flex-basis: 200px;
 }
 
 #section-5{
+  order: 1;
 }
